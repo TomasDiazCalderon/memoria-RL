@@ -1,1 +1,1 @@
-Los códigos que están son del primer entrenamiento
+Los códigos fuera de la carpeta son del primer entrenamiento.
