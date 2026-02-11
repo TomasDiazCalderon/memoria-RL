@@ -1,0 +1,5 @@
+Las pruebas de los estados se hicieron con las correcciones mencionadas en la carpeta Correccion_config_inicial.
+
+Las pruebas de S1, S2 y S4 se pueden comparar con S3 100 nodos 15%
+
+Hasta ahora, la mejor combinación diría que es con S3 con 100 nodos y 15%, S4 con window_size 100 con tasa poda 10%. Revisar S1 y S2.

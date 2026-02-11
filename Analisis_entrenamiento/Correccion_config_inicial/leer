@@ -1,0 +1,3 @@
+Acá apliqué la corrección de los valores inf y nan que me ensuciaban la tabla. 
+Además, cambié el restart_threshold a 100 y cambié los porcentajes de S1 a <15% bajo, <45% medio y el resto alto. Agregué el reinicio del estado d3 dada cierta cantidad de nodos, donde probé con 2000 (no sirvió de nada en esta ejecución porque al reiniciar a cada rato nunca llega a juntar una gran cantidad de nodos). Dejé como base 100 nodos para las pruebas de estados.
+El archivo state_distribution.ods fue con épsilon alto. 
