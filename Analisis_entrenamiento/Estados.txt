@@ -1,0 +1,76 @@
+S1: Estancamiento
+S2: buffer
+S3: Calidad del Reinicio (hulls rechazados)
+S4: Salud del árbol (calidad poda)
+
+S[00]: S1 bajo, S2 bajo, S3 bueno, S4 baja 
+
+S[01]: S1 medio, S2 bajo, S3 bueno, S4 bajo
+
+S[02]: S1 alto, S2 bajo, S3 bueno, S4 bajo
+
+S[03]: S1 bajo, S2 medio, S3 bueno, S4 bajo
+
+S[04]: S1 medio, S2 medio, S3 bueno, S4 bajo
+
+S[05]: S1 alto, S2 medio, S3 bueno, S4 bajo
+
+S[06]: S1 bajo, S2 alto, S3 bueno, S4 bajo
+
+S[07]: S1 medio, S2 alto, S3 bueno, S4 bajo
+
+S[08]: S1 alto, S2 alto, S3 bueno, S4 bajo
+
+S[09]: S1 bajo, S2 bajo, S3 malo, S4 bajo
+
+S[10]: S1 medio, S2 bajo, S3 malo, S4 bajo
+
+S[11]: S1 alto, S2 bajo, S3 malo, S4 bajo 
+
+S[12]: S1 bajo, S2 medio, S3 malo,  S4 bajo
+
+S[13]: S1 medio, S2 medio, S3 malo , S4 bajo
+
+S[14]: S1 alto, S2 medio, S3 malo, S4 bajo
+
+S[15]: S1 bajo, S2 alto, S3 malo, S4 bajo
+
+S[16]: S1 medio, S2 alto, S3 malo, S4 bajo
+
+S[17]: S1 alto, S2 alto, S3 malo, S4 bajo
+
+S[18]: S1 bajo, S2 bajo, S3 buena, S4 alto
+
+S[19]: S1 medio, S2 bajo, S3 buena, S4 alto
+
+S[20]: S1 alto, S2 bajo, S3 buena, S4 alto
+
+S[21]: S1 bajo, S2 medio, S3 buena, S4 alto
+
+S[22]: S1 medio, S2 medio, S3 buena, S4 alto
+
+S[23]: S1 alto, S2 medio, S3 buena, S4 alto
+
+S[24]: S1 bajo, S2 alto, S3 buena, S4 alto
+
+S[25]: S1 medio, S2 alto, S3 buena, S4 alto
+
+S[26]: S1 alto, S2 alto, S3 buena, S4 alto
+
+S[27]: S1 bajo, S2 bajo, S3 malo, S4 alto
+
+S[28]: S1 medio, S2 bajo, S3 malo, S4 alto
+
+S[29]: S1 alto, S2 bajo, S3 malo, S4 alto
+
+S[30]: S1 bajo, S2 medio, S3 malo, S4 alto
+
+S[31]: S1 medio, S2 medio, S3 malo, S4 alto
+
+S[32]: S1 alto, S2 medio, S3 malo, S4 alto
+
+S[33]: S1 bajo, S2 alto, S3 malo, S4 alto
+
+S[34]: S1 medio, S2 alto, S3 malo, S4 alto
+
+S[35]: S1 alto, S2 alto, S3 malo, S4 alto
