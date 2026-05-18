@@ -1,0 +1,9 @@
+La base con la que he conseguido mejores cosas son: S1 con <15% y <45%, S2 200-10000 nodos, S3 100 nodos 15% y S4 tasa poda > 20% window size 100. Probar cambiar cosas de S1 y S4.
+
+S2 y S3 serán la base principal, por lo que se probará cambiar cosas de S1 y S4. 
+
+BORRAR ESTA PARTE CUANDO LO HAGA Cosas por hacer:
+	--> Probar con S1 con <15% y <45%, S4 tasa poda > 20% window size 20. (base)
+	--> Probar a cambiar solo S1
+	--> Probar a cambiar solo S4 (cambiar el poda_window_size a 100)(ver si hacer otra más)
+	--> Comparar los 3 casos anteriores

@@ -1,0 +1,12 @@
+Las pruebas de los estados se hicieron con las correcciones mencionadas en la carpeta Correccion_config_inicial.
+
+Las pruebas de S1, S2 y S4 se pueden comparar con S3 100 nodos 15% (configuración base)
+
+Con S1: Cambié los porcentajes del informe por los que están en el código corregido. Con esto, se visita muchas veces más el estado S[15] (S1 bajo, S2 alto, S3 malo, S4 bajo), y se visitan menos estados. En general, se visitan más d1=0 (bajo) y menos d1=2 (alto). Es mejor mantener la configuración base 0.15/0.45, así aparecen más estancamiento alto.
+
+Con S2: Con el cambio que hice con S2, aparecen prácticamente los mismos estados que con la configuración base. Sin embargo, el cambio está en que se visitan menos los estados S[15], S[16] y S[17], pasándose más a los estados S[12], S[13] y S[14]. Esto es ya que cuando se tenían más de 1000 nodos caían en los 3 primeros (d2 = 2, buffer alto), cosa que ocurría muy fácilmente en problemas complejos como optmass o chem. Por eso, el agente siempre se mantenía en alerta por el buffer alto. Es por esto que se aplicó el cambio a arriba de 10000 nodos que sea alto, así el agente de RL empezará a notar la diferencia entre un buffer que "está creciendo" (d2 = 1) y un buffer que "está fuera de control" (d2 = 2).
+
+Con S3: Empecé cambiando la cantidad de nodos antes de forzar que d3=0. Con 200 o más, no se visitan muchos estados y se estanca en S[15]. Con 100, se empiezan a visitar más. Con 10 se visitan varios más y aparece el S[06] que es el mismo S[15] solo que cambiando el d3. Con 100 aparecen pocos S[06], lo cual creo que es más correcto que con 10 que salen muchos. Después, empecé a probar con el porcentaje de poda, pasando de un 15% a 10%. Esta configuración demostró una mayor sensibilidad para identificar estados críticos de estancamiento alto con memoria recuperada (S[08]). Si se aumenta mucho el porcentaje, prácticamente siempre caería en estados donde la poda es baja.
+
+Con S4: Cambié el tamaño de ventana de 20 a 100, y cambié el umbral de 20% a 10%. Con esto, se visitaron más estados con d4 = 1 (poda alta) y estados como S[30] aumentan la cantidad de visitas.
+

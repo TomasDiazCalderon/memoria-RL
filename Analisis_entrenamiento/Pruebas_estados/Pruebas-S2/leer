@@ -1,0 +1,3 @@
+Log size se cambio por distintos nodos. Originalmente, lo tenía como bajo <3.9 (50 nodos), medio <6.9 (entre 50 y 1000 nodos) y el resto alto.
+El cambio que probé fue con bajo < 5.3 (200 nodos), medio <9.2 (10000 nodos) y el resto alto.
+

@@ -1,0 +1,1 @@
+En este entrenamiento, modifiqué las recompensas. El costo por reinicio quedó con -50, el paso del tiempo pasó de -10 a -20. El premio por terminar pasó de +1000 a +500. El objetivo es penalizar el uso del clustering para que el agente aprenda que no es una acción gratuita y solo la utilice cuando el beneficio en tiempo supere el costo del reinicio.
