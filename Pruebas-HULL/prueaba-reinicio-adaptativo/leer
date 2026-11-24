@@ -1,0 +1,8 @@
+Se compara la prueba de adaptativo, donde dada ciertas métricas que aprende de cada problema, puede activar un reinicio donde puede aplicar clustering o solo reorganizar el buffer.
+
+Se comparan los resultados de esto vs reorganización pura (reinicia dada la cantidad de bisecciones) vs Marcelo vs ibex
+
+
+
+    
+    

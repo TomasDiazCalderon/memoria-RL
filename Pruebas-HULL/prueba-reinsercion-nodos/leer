@@ -1,0 +1,4 @@
+Acá lo que hice fue que por cada reinicio, se extrae la lista de nodos y se vuelve a insertar, con el fin de ver si mejoraban los tiempos solo con esta acción.
+Esto se hizo ya que cuando probé sólo el hull con filtro, rechazaba todo y, en lugar de tener valores similares al ibex base, los mejoraba igualmente.
+
+La posible razón de esto es que la reestructuración periódica de la cola de prioridad rompe empates en las cotas inferiores y previene el comportamiento de colas pesadas (esto según gemini)
